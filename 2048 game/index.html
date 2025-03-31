@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2048</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box_status" id="status">
+            <h1 class="status_game">Game Over!</h1>
+        </div>
+        <div class="scor-box">
+            <div class="current-scor"><span id="current-score">0</span></div>
+            <div class="hight-scor"><span id="hight-score">2048</span></div>
+        </div>
+        <div class="board">
+            <div data-row="0" data-col="0" class="cell" data-value="0"></div>
+            <div data-row="0" data-col="1" class="cell" data-value="0"></div>
+            <div data-row="0" data-col="2" class="cell" data-value="0"></div>
+            <div data-row="0" data-col="3" class="cell" data-value="0"></div>
+            <div data-row="1" data-col="0" class="cell" data-value="0"></div>
+            <div data-row="1" data-col="1" class="cell" data-value="0"></div>
+            <div data-row="1" data-col="2" class="cell" data-value="0"></div>
+            <div data-row="1" data-col="3" class="cell" data-value="0"></div>
+            <div data-row="2" data-col="0" class="cell" data-value="0"></div>
+            <div data-row="2" data-col="1" class="cell" data-value="0"></div>
+            <div data-row="2" data-col="2" class="cell" data-value="0"></div>
+            <div data-row="2" data-col="3" class="cell" data-value="0"></div>
+            <div data-row="3" data-col="0" class="cell" data-value="0"></div>
+            <div data-row="3" data-col="1" class="cell" data-value="0"></div>
+            <div data-row="3" data-col="2" class="cell" data-value="0"></div>
+            <div data-row="3" data-col="3" class="cell" data-value="0"></div>
+        </div>
+
+        <div class="restart-button">
+            <button type="button" class="btn-restart" id="btn_restart">restart</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
